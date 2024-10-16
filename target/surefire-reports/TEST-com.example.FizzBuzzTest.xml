@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.FizzBuzzTest" time="0.009" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.FizzBuzzTest" time="0.01" tests="0" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -12,11 +12,12 @@
     <property name="user.timezone" value="Europe/Madrid"/>
     <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="21"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Maria\AppData\Local\Temp\surefire13394117088508341056\surefirebooter13756674725710395142.jar C:\Users\Maria\AppData\Local\Temp\surefire13394117088508341056 2024-10-16T20-17-38_770-jvmRun1 surefire8275504184558530807tmp surefire_0479791380591438779tmp"/>
+    <property name="sun.java.command" value="C:\Users\Maria\AppData\Local\Temp\surefire4288577637847051304\surefirebooter5720090232156022141.jar C:\Users\Maria\AppData\Local\Temp\surefire4288577637847051304 2024-10-16T20-41-15_740-jvmRun1 surefire18111365104283242180tmp surefire_08902796793337044338tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="${packageClassName}"/>
     <property name="surefire.test.class.path" value="C:\Users\Maria\Desktop\FactoriaF5Proyectos\fizzbuzz\target\test-classes;C:\Users\Maria\Desktop\FactoriaF5Proyectos\fizzbuzz\target\classes;C:\Users\Maria\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.2\junit-jupiter-api-5.11.2.jar;C:\Users\Maria\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Maria\.m2\repository\org\junit\platform\junit-platform-commons\1.11.2\junit-platform-commons-1.11.2.jar;C:\Users\Maria\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Maria"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Maria\AppData\Local\Temp\surefire13394117088508341056\surefirebooter13756674725710395142.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Maria\AppData\Local\Temp\surefire4288577637847051304\surefirebooter5720090232156022141.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -41,6 +42,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Users\Maria\.vscode\extensions\oracle.oracle-java-23.0.0\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\Maria\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Maria\AppData\Local\Temp\"/>

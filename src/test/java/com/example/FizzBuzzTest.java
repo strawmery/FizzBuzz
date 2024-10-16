@@ -26,6 +26,22 @@ public class FizzBuzzTest {
     @Test
     public void Divisible3(){
         FizzBuzz.fizzBuzz(9);
-        assertEquals("FIZZ/n", outContent.toString());
+        assertEquals("FIZZ\r\n", outContent.toString());
+    }
+    @Test
+    public void Divisible5(){
+        FizzBuzz.fizzBuzz(10);
+        assertEquals("BUZZ\r\n", outContent.toString());
+    }
+    @Test
+    public void Divisible3and5(){
+        FizzBuzz.fizzBuzz(15);
+        assertEquals("FIZZBUZZ\r\n", outContent.toString());
+    }
+
+    @Test
+    public void Nothing(){
+        FizzBuzz.fizzBuzz(2);
+        assertEquals("NADA\r\n", outContent.toString());
     }
 }
