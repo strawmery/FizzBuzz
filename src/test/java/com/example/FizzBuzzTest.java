@@ -44,4 +44,24 @@ public class FizzBuzzTest {
         FizzBuzz.fizzBuzz(2);
         assertEquals("NADA\r\n", outContent.toString());
     }
+    
+    @Test
+    public void containsThree(){
+        FizzBuzz.fizzBuzz(3);
+        assertEquals("FIZZ\r\n", outContent.toString());
+    }
+
+    @Test
+    public void containsFive(){
+        FizzBuzz.fizzBuzz(5);
+        assertEquals("BUZZ\r\n", outContent.toString());
+    }
+
+    @Test
+    public void testContieneDigito() {
+        assertEquals(true, FizzBuzz.digitContains(12345, 3));
+        assertEquals(false, FizzBuzz.digitContains(6789, 5));
+        assertEquals(true, FizzBuzz.digitContains(10123, 1));
+        assertEquals(false, FizzBuzz.digitContains(0, 5));
+    }
 }
